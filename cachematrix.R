@@ -13,7 +13,7 @@
 # makeCacheMatrix is a function that stores the inverse of a matrix to reduce recalculation of the inverse if called again 
 
 
-makeCacheMatrix <- function(x = matrix(),nrow,ncol)) {
+makeCacheMatrix <- function(x = matrix(),nrow,ncol) {
 
 
   # Check to see if the function is called with a square matrix as an input, if not stop the code and populate an error message
